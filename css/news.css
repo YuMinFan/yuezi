@@ -1,0 +1,102 @@
+img {
+  vertical-align: top;
+}
+.news {
+  margin-top: 1.66666667rem;
+  margin-bottom: 1.66666667rem;
+}
+.news_img {
+  overflow: hidden;
+}
+.news_img li {
+  width: 9.16666667rem;
+  float: left;
+  margin-bottom: 0.55555556rem;
+}
+.news_img li img {
+  width: 9.16666667rem;
+}
+.news_img li:nth-child(2n) {
+  margin-left: 0.55555556rem;
+}
+.newsclassify p {
+  text-align: left;
+}
+.newsclassify .newsclassify_tab {
+  margin-bottom: 0.83333333rem;
+}
+.newsclassify .newsclassify_tab_title {
+  line-height: 1.66666667rem;
+  height: 1.66666667rem;
+  text-indent: 0.55555556rem;
+  background: url(../img/news/newsclassify/0.png) no-repeat 18.16666667rem center #74c5be;
+  background-size: 0.30555556rem 0.55555556rem;
+  font-size: 0.66666667rem;
+  color: #fff;
+}
+.newsclassify .cur {
+  background: url(../img/news/newsclassify/1.png) no-repeat 18.16666667rem center #e76da0;
+  background-size: 0.55555556rem 0.30555556rem;
+}
+.newsclassify .newsclassify_article {
+  overflow: hidden;
+}
+.newsclassify .newsclassify_article .newsclassify_article_li {
+  font-size: 0;
+}
+.newsclassify .newsclassify_article .newsclassify_article_li a {
+  display: inline-block;
+  line-height: 1.5rem;
+  width: 100%;
+  color: #8a8b8c;
+  border-bottom: 1px solid #8a8b8c;
+}
+.newsclassify .newsclassify_article .newsclassify_article_li a .newsclassify_article_title {
+  float: left;
+  font-size: 0.5rem;
+  width: 100%;
+  background: url(../img/news/newsclassify/2.png) no-repeat 18.16666667rem center;
+  background-size: 0.22222222rem 0.33333333rem;
+}
+.newsclassify .newsclassify_article .newsclassify_article_li a:hover {
+  border-bottom: 1px solid #e76da0;
+}
+.newsclassify .newsclassify_article .newsclassify_article_li a:hover .newsclassify_article_title {
+  color: #e76da0;
+  background: url(../img/news/newsclassify/3.png) no-repeat 18.16666667rem center;
+  background-size: ;
+}
+.article {
+  text-align: center;
+  margin-top: 0.41666667rem;
+  margin-bottom: 1.25rem;
+}
+.article .article_title {
+  font-size: 0.83333333rem;
+  line-height: 2.5rem;
+}
+.article .article_brief {
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  color: #8a8b8c !important;
+  font-size: 0.38888889rem;
+  border-bottom: 1px dashed #8a8b8c;
+}
+.article .article_brief span {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.article .article_content {
+  margin-top: 0.55555556rem;
+  font-size: 0.66666667rem;
+  line-height: 1.22222222rem;
+}
+.article .article_footer {
+  margin-top: 1.66666667rem;
+  text-align: left;
+}
+.article .article_footer a {
+  font-size: 0.66666667rem;
+  line-height: 1.66666667rem;
+}

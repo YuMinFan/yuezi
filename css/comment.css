@@ -1,0 +1,47 @@
+.buttons {
+  margin: 0 0.11111111rem;
+  padding: 0.27777778rem 0.55555556rem;
+  font-size: 0.77777778rem;
+}
+.list-btn-page {
+  max-height: 1.66666667rem;
+  padding: 1.66666667rem 0rem;
+}
+.list-btn-page > a {
+  letter-spacing: -0.11111111rem;
+  color: #a5a6a7;
+  font-size: 1.66666667rem;
+  margin: 0rem 0.27777778rem;
+}
+.btns {
+  margin: 0.27777778rem;
+  display: inline;
+}
+.list-btn-page .btns > a {
+  font-weight: bold;
+  margin: 0 0.27777778rem;
+  margin-bottom: 0.05555556rem;
+  display: inline-block;
+  width: 1.38888889rem;
+  height: 1.38888889rem;
+  border-radius: 1.38888889rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.38888889rem;
+  position: relative;
+  bottom: 0.27777778rem;
+}
+.init-list-btn {
+  background: transparent;
+  color: #a5a6a7;
+}
+.click-list-btn {
+  color: white;
+  background: #64bab1;
+}
+.comment-icon {
+  margin-top: 0.27777778rem;
+}
+.comment-content {
+  text-align: left;
+}

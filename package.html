@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>套餐服务</title>
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/package.css">
+		<script type="text/javascript">
+			window.onload = function() {
+				/* init();*/
+				selfAdaption();
+				enlarge();
+				window.onresize = function() {
+					selfAdaption();
+					//自适应屏幕
+				};
+
+				function selfAdaption() {
+					var html = document.documentElement;
+					var hWidth = html.getBoundingClientRect().width;
+					html.style.fontSize = Math.floor(hWidth / 20) + "px";
+					/* console.log(html.style.fontSize);*/
+				}
+
+				function enlarge() {
+					var bigImgArr = ['package_04.jpg', 'package_06.jpg', 'package_08.jpg', 'package_10.jpg'];
+					var oDwellingContext = document.querySelector(".dwelling-context");
+					var oDwellingUl = oDwellingContext.querySelector("ul");
+					var oDwellingCover = oDwellingContext.querySelector(".dwelling-cover");
+					var oDwellingLi = oDwellingUl.children;
+					for(var i = 0; i < oDwellingLi.length; i++) {
+						oDwellingLi[i].index = i;
+						oDwellingLi[i].onclick = function() {
+							oDwellingCover.style.display = "block";
+							/*  oDwellingCover.style.height = oDwellingUl.offsetHeight + "px";*/
+							oDwellingCover.innerHTML = "<img src='img/" + bigImgArr[this.index] + "' alt=''>";
+							oDwellingUl.style.display = "none";
+						}
+					}
+					oDwellingCover.onclick = function() {
+						oDwellingCover.style.display = "none";
+						oDwellingUl.style.display = "block";
+					}
+				}
+			}
+		</script>
+		<script src="js/my.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="header container clearfix">
+			<div class="header-left floatLeft">
+				<img src="img/phoneIcon.jpg" />
+			</div>
+			<div class="header-right floatRight">
+				<a href="javascript:">
+					<img src="img/menuIcon.jpg" />
+				</a>
+			</div>
+			<div class="header-mid">
+				<div class="header-mid-icon floatLeft">
+					<img src="img/headerIcon.jpg" />
+				</div>
+				<div class="header-mid-right floatRight">
+					<h1 class="center-align">仕馨月子会所</h1>
+					<p class="center-align">NOBLE NO</p>
+					<p class="header-mid-textBottom center-align">月子馨享受</p>
+				</div>
+			</div>
+		</div>
+		<div class="top container">
+
+			<div class="photoBox">
+				<ul class="show">
+					<li><img src="img/banner01.jpg" /></li>
+					<li><img src="img/banner02.jpg" /></li>
+					<li><img src="img/banner03.jpg" /></li>
+				</ul>
+				<ul class="btnShow">
+					<li class="turn-color"></li>
+					<li class="init-color"></li>
+					<li class="init-color"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="about.html">关于仕馨</a>
+					</li>
+					<li>
+						<a href="service.html">专业月子服务体系</a>
+					</li>
+					<li>
+						<a href="Branch.html">分店介绍</a>
+					</li>
+					<li>
+						<a href="package.html">套餐介绍</a>
+					</li>
+					<li>
+						<a href="comment.html">妈妈见证</a>
+					</li>
+					<li>
+						<a href="news.html">月子咨询</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="package">
+			<div class="container">
+				<div class="dwelling">
+					<div class="title">
+						<h3 class="title-ch">
+                    <span></span>
+                    居住环境
+                    <span></span>
+                    <p class="title-alpha">DWELLING ENVIRONMENT</p>
+                </h3>
+					</div>
+					<div class="dwelling-context">
+						<ul class="floatLeft">
+							<li>
+								<div><img src="img/package_03.jpg" alt=""></div>
+								<div class="text">
+									<div>
+										<div class="arrow"><img src="img/upArrow.png" alt=""></div>
+										<p>小单间</p>
+										<p>SRANDARD</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="text">
+									<div>
+										<p>大单间</p>
+										<p>SUPRA UK STORE</p>
+										<div class="arrow"><img src="img/downArrow.png" alt=""></div>
+									</div>
+								</div>
+								<div><img src="img/package_05.jpg" alt=""></div>
+
+							</li>
+							<li>
+								<div><img src="img/package_07.jpg" alt=""></div>
+								<div class="text">
+									<div>
+										<div class="arrow"><img src="img/upArrow.png" alt=""></div>
+										<p>一房一厅</p>
+										<p>NEW KUTA</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="text">
+									<div>
+										<p>两房一厅</p>
+										<p>TWO-ROOM</p>
+										<div class="arrow"><img src="img/downArrow.png" alt=""></div>
+									</div>
+								</div>
+								<div><img src="img/package_09.jpg" alt=""></div>
+
+							</li>
+						</ul>
+						<div class="dwelling-cover floatLeft">
+							<img src="img/package_04.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="mother">
+					<div class="title">
+						<h3 class="title-ch">
+                    <span></span>
+                    妈妈项目
+                    <span></span>
+                    <p class="title-alpha">MOTHER PROJECT</p>
+                </h3>
+					</div>
+					<div class="mother-context img-text">
+						<ul>
+							<li><img src="img/package_15.jpg" alt="">
+								<p>妈妈日常专业护理</p>
+							</li>
+							<li><img src="img/package_16.jpg" alt="">
+								<p>通乳服务</p>
+							</li>
+							<li><img src="img/package_18.jpg" alt="">
+								<p>专家查房</p>
+							</li>
+							<li><img src="img/package_19.jpg" alt="">
+								<p>身体功能性修复</p>
+							</li>
+							<li><img src="img/package_21.jpg" alt="">
+								<p>中医营养调理</p>
+							</li>
+							<li><img src="img/package_22.jpg" alt="">
+								<p>生活护理</p>
+							</li>
+							<li><img src="img/package_24.jpg" alt="">
+								<p>中医保健调理</p>
+							</li>
+							<li><img src="img/package_25.jpg" alt="">
+								<p>美容项目</p>
+							</li>
+							<li><img src="img/package_27.jpg" alt="">
+								<p>产后修复</p>
+							</li>
+							<li><img src="img/package_28.jpg" alt="">
+								<p>形体恢复</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nutrition">
+					<div class="title">
+						<h3 class="title-ch">
+                    <span></span>
+                    定制营养餐
+                    <span></span>
+                    <p class="title-alpha">DWELLING ENVIRONMENT</p>
+                </h3>
+					</div>
+					<div class="nutrition-context">
+						<ul class="clearfix">
+							<li class="floatLeft"><img src="img/package_30.jpg" alt="">
+								<p>妈妈月子餐</p>
+							</li>
+							<li class="floatRight"><img src="img/package_32.jpg" alt="">
+								<p>营养调理</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="baby">
+				<div class="baby-title">
+					<span></span>
+					<h2>宝宝项目<br><span>BABY PROJECT</span></h2>
+					<span></span>
+				</div>
+				<div class="bg"></div>
+				<div class="baby-context img-text">
+					<ul>
+						<li><img src="img/package_36.jpg" alt="">
+							<p>宝宝日常专业护理</p>
+						</li>
+						<li><img src="img/package_37.jpg" alt="">
+							<p>生活护理</p>
+						</li>
+						<li><img src="img/package_38.jpg" alt="">
+							<p>专家查房</p>
+						</li>
+						<li><img src="img/package_39.jpg" alt="">
+							<p>新生儿早教</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="other center-align">
+				<div class="title">
+					<h3 class="title-ch">
+                <span></span>
+                其他服务
+                <span></span>
+                <p class="title-alpha">OTHER SERVICES</p>
+            </h3>
+				</div>
+				<div class="other-context img-text">
+					<ul>
+						<li><img src="img/package_41.jpg" alt="">
+							<p>摄影服务</p>
+						</li>
+						<li>
+							<div class="other-context-innerUl img-text">
+								<ul>
+									<li><img src="img/package_42.jpg" alt="">
+										<p>商务车接送</p>
+									</li>
+									<li><img src="img/package_43.jpg" alt="">
+										<p>陪护餐</p>
+									</li>
+									<li><img src="img/package_44.jpg" alt="">
+										<p>家属陪住</p>
+									</li>
+									<li><img src="img/package_45.jpg" alt="">
+										<p>满月party</p>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li><img src="img/package_46.jpg" alt="">
+							<p>品牌生活用品</p>
+						</li>
+						<li><img src="img/package_47.jpg" alt="">
+							<p>宝宝体质评估</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-top">
+				<!--<img src="img/footerImg.png"/>-->
+				<div class="footer-top-att clearfix">
+					<div class="footer-top-att-box floatLeft">
+						<img src="img/att-left .jpg" />
+						<p>关注官方微信</p>
+					</div>
+					<div class="footer-top-att-box floatRight">
+						<img src="img/att-right.jpg" />
+						<p>关注官方微博</p>
+					</div>
+				</div>
+				<div class="footer-top-att center-align">
+					Copyright@2011 仕馨月子会所 (粤ICP备17008523号-1)
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container clearfix">
+
+					<div class="footer-bottom-box footer-line-right floatLeft">
+						<img src="img/telIcon.png" class="floatLeft" />
+						<a href="#" class="floatRight">联系电话</a>
+
+					</div>
+					<div class="footer-bottom-box footer-line-left footer-line-right floatLeft">
+
+						<img src="img/bookIcon.png" class="floatLeft" />
+						<a href="#" class="floatRight">预约看店</a>
+
+					</div>
+					<div class="footer-bottom-box footer-line-left footer-nav floatLeft">
+
+						<a href="javascript:" class="floatRight">导航</a>
+						<img src="img/navIcon.png" class="floatRight" />
+
+					</div>
+
+				</div>
+
+				<div class="footer-show">
+					<div class="footer-show-box center-align">
+						<div class="footer-show-line clearfix">
+							<a href="index.html" class="footer-show-line-box floatLeft">
+								<img src="img/mainIcon.jpg" />
+								<p>首页</p>
+							</a>
+							<a href="service.html" class="footer-show-line-box floatRight">
+								<img src="img/serviceIcon.jpg" />
+								<p>服务体系</p>
+							</a>
+							<a href="about.html" class="footer-show-line-box center-align">
+								<img src="img/aboutIcon.jpg" />
+								<p>关于仕馨</p>
+							</a>
+						</div>
+						<div class="footer-show-line clearfix">
+							<a href="Branch.html" class="footer-show-line-box floatLeft">
+								<img src="img/shopIcon.jpg" />
+								<p>分店介绍</p>
+							</a>
+							<a href="comment.html" class="footer-show-line-box floatRight">
+								<img src="img/motherIcon.jpg" />
+								<p>妈妈见证</p>
+							</a>
+							<a href="package.html" class="footer-show-line-box center-align">
+								<img src="img/mealIcon.jpg" />
+								<p>套餐服务</p>
+							</a>
+						</div>
+						<div class="footer-show-line clearfix">
+							<a href="news.html" class="footer-show-line-box floatLeft">
+								<img src="img/monthIcon.jpg" />
+								<p>月子咨询</p>
+							</a>
+
+							<div class="footer-show-line-box floatRight footer-nav-close">
+								<img src="img/footerCloseIcon.jpg" />
+								<p>关闭</p>
+							</div>
+							<div class="footer-show-line-box center-align">
+								<img src="img/visitIcon.jpg" />
+								<p>预约参观</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="rectangle">
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+	<script src="js/header_and_footer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

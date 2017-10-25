@@ -1,0 +1,111 @@
+@rem:36rem;
+
+img{
+    vertical-align: top;
+}
+
+.news{
+  margin-top:60/@rem;
+  margin-bottom:60/@rem;
+}
+
+.news_img{
+  overflow: hidden;
+  //margin-top:40/@rem;
+  li{
+    width:330/@rem;
+    float:left;
+    margin-bottom:20/@rem;
+    img{
+      width:330/@rem;
+    }
+  }
+  li:nth-child(2n){
+    margin-left:20/@rem;
+  }
+}
+
+.newsclassify{
+  p{
+    text-align: left;
+  }
+  .newsclassify_tab{
+    margin-bottom:30/@rem;
+  }
+  .newsclassify_tab_title{
+    line-height:60/@rem;
+    height:60/@rem;
+    text-indent:20/@rem;
+    background: url(../img/news/newsclassify/0.png)no-repeat 654/@rem center #74c5be;
+    background-size:11/@rem 20/@rem;
+    font-size:24/@rem;
+    color:#fff;
+  }
+  .cur{
+    background: url(../img/news/newsclassify/1.png)no-repeat 654/@rem center #e76da0;
+    background-size:20/@rem 11/@rem;
+  }
+  .newsclassify_article{
+    overflow: hidden;
+    .newsclassify_article_li{
+      font-size:0;
+      a {
+        display: inline-block;
+        line-height: 54/@rem;
+        width: 100%;
+        color: #8a8b8c;
+        border-bottom: 1px solid #8a8b8c;
+        .newsclassify_article_title {
+          float: left;
+          font-size: 18/@rem;
+          width: 100%;
+          background: url(../img/news/newsclassify/2.png) no-repeat 654/@rem center;
+          background-size:8/@rem 12/@rem;
+        }
+      }
+      a:hover{
+        .newsclassify_article_title{
+          color:#e76da0;
+          background: url(../img/news/newsclassify/3.png)no-repeat 654/@rem center;
+          background-size: ;
+        }
+        border-bottom:1px solid #e76da0;
+      }
+    }
+  }
+}
+
+.article{
+  text-align: center;
+  margin-top:15/@rem;
+  margin-bottom:45/@rem;
+  .article_title{
+    font-size:30/@rem;
+    line-height:90/@rem;
+  }
+  .article_brief{
+    height:30/@rem;
+    line-height:30/@rem;
+    color:#8a8b8c !important;
+    font-size:14/@rem;
+    border-bottom:1px dashed #8a8b8c;
+    span{
+      display: inline-block;
+      width:50%;
+      float:left;
+    }
+  }
+  .article_content{
+    margin-top:20/@rem;
+    font-size:24/@rem;
+    line-height:44/@rem;
+  }
+  .article_footer{
+    margin-top:60/@rem;
+    text-align: left;
+    a{
+      font-size:24/@rem;
+      line-height:60/@rem;
+    }
+  }
+}

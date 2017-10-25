@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  list-style: none;
+}
+html {
+  font-size: 18px;
+}
+.about .about_story {
+  width: 100%;
+  height: 100%;
+  padding-top: 1.11111111rem;
+  box-sizing: border-box;
+}
+.about .about_story .story_img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.about .about_story .story_text {
+  width: 100%;
+  line-height: 1rem;
+  font-weight: 100;
+  text-align: center;
+  padding: 0.83333333rem;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+.about .about_story .story_text p {
+  margin-top: 0.55555556rem;
+  color: #8a8b8c;
+  font-size: 0.55555556rem;
+}
+.about .about_founder {
+  width: 100%;
+  height: 100%;
+}
+.about .about_founder .founder_content {
+  padding: 0.55555556rem;
+  box-sizing: border-box;
+  width: 20rem;
+}
+.about .about_founder .founder_content img {
+  float: left;
+  width: 8.11111111rem;
+  border: 0.02777778rem solid #e5e5e5;
+}
+.about .about_founder .founder_content p {
+  float: left;
+  width: 9.61111111rem;
+  line-height: 0.88888889rem;
+  font-weight: 100;
+  color: #8a8b8c;
+  margin-top: 0.38888889rem;
+  margin-left: 0.94444444rem;
+  font-size: 0.55555556rem;
+}
+.about .about_mission {
+  background: url("../img/关于_中部背景_02.png") no-repeat;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  padding-top: 0.83333333rem;
+}
+.about .about_mission .mission_content {
+  box-sizing: border-box;
+  width: 100%;
+}
+.about_mission .mission_content p {
+  font-size: 0.5rem;
+  font-weight: 100;
+  color: #8a8b8c;
+  text-align: center;
+  line-height: 0.88888889rem;
+  margin-bottom: 0.55555556rem;
+}
+.about_mission .mission_content ul li {
+  float: left;
+  width: 8.91666667rem;
+}
+.about_mission .mission_content ul li img {
+  height: 8.91666667rem;
+}
+.about_mission .mission_content ul li:nth-child(2n) {
+  margin-left: 0.83333333rem;
+}
+.about_mission .mission_content ul li p {
+  font-size: 0.61111111rem;
+  color: #585757;
+  font-weight: 600;
+}
+.about_reasons {
+  width: 100%;
+  padding-top: 0.83333333rem;
+}
+.about_reasons .reasons_content ul {
+  padding: 0.55555556rem;
+  box-sizing: border-box;
+}
+.about_reasons .reasons_content ul li {
+  width: 8.72222222rem;
+  float: left;
+  text-align: center;
+  padding-bottom: 1.33333333rem;
+}
+.about_reasons .reasons_content ul li:nth-child(2n) {
+  margin-left: 1.38888889rem;
+}
+.about_reasons .reasons_content ul li img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.about_reasons .reasons_content ul li .reason_content_top {
+  margin-top: 0.66666667rem;
+  font-size: 0.77777778rem;
+  color: #74c5be;
+  font-weight: bold;
+}
+.about_reasons .reasons_content ul li .reason_content_bottom {
+  font-size: 0.5rem;
+  color: #8a8b8c;
+  line-height: 1rem;
+}
+.about_ourHonor .about_ourHonorImg {
+  text-align: center;
+  padding-top: 0.83333333rem;
+}
+.about_ourHonor .about_ourHonorImg img {
+  width: 18.88888889rem;
+  height: 18.77777778rem;
+}
+.about_media {
+  height: 20.27777778rem;
+  padding-top: 1.5rem;
+}
+.about_media ul {
+  width: 100%;
+  height: 14.5rem;
+  box-sizing: border-box;
+}
+.about_media ul li {
+  width: 9.16666667rem;
+  height: 6.94444444rem;
+  margin-top: 0.66666667rem;
+}
+.about_media ul li:nth-child(2n) {
+  margin-left: 0.55555556rem;
+}
+.about_media ul li img {
+  width: 100%;
+  height: 100%;
+}
+.about_problems {
+  height: 19.77777778rem;
+  padding-top: 1.27777778rem;
+}
+.about_problems .about_problems_img {
+  background: url("../img/problems.png");
+  height: 15.77777778rem;
+  background-size: 100%;
+  margin-top: 1.16666667rem;
+  overflow: hidden;
+  position: relative;
+}
+.about_problems .about_problems_img ul {
+  width: 36.66666667rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.about_problems .about_problems_img ul li {
+  margin-top: 1rem;
+  margin-left: 0.55555556rem;
+  float: left;
+  width: 8.61111111rem;
+  height: 12.63888889rem;
+  opacity: 0.7;
+}
+.about_problems .about_problems_img ul li img {
+  width: 8.61111111rem;
+  height: 12.63888889rem;
+}
+.about_contact {
+  overflow: hidden;
+}
+.about_contact .about_contact_content .about_contact_content_top {
+  width: 100%;
+  height: 2.77777778rem;
+  text-align: center;
+}
+.about_contact .about_contact_content .about_contact_content_top span {
+  font-size: 0.61111111rem;
+  width: 4.30555556rem;
+  height: 1.11111111rem;
+  background-color: #74c5be;
+  color: #fff;
+  border-radius: 0.55555556rem 0;
+  padding: 0.27777778rem 0.41666667rem;
+  box-sizing: border-box;
+  margin-left: 0.44444444rem;
+}
+.about_contact .about_contact_content .about_contact_content_top span:first-child {
+  background-color: #ed85ad;
+}
+.about_contact .about_contact_content form {
+  text-align: center;
+  height: 19.77777778rem;
+}
+.about_contact .about_contact_content form .about_contact_content_bottom {
+  width: 17.44444444rem;
+  height: 1.72222222rem;
+  border: 1px solid #ed85ad;
+  color: #b6b7b7;
+  line-height: 1.72222222rem;
+  font-size: 0.55555556rem;
+  margin-bottom: 0.83333333rem;
+  border-radius: 0 0.55555556rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+}
+.about_contact .about_contact_content form textarea {
+  width: 17.27777778rem;
+  height: 5.83333333rem;
+  border: 1px solid #ed85ad;
+  color: #b6b7b7;
+  line-height: 1.72222222rem;
+  font-size: 0.55555556rem;
+  border-radius: 0 0.55555556rem;
+  resize: none;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+}
+.about_contact .about_contact_content form input[type="button"] {
+  border: none;
+  border-radius: 0 0.55555556rem;
+  width: 12.5rem;
+  height: 1.66666667rem;
+  background-color: #ed85ad;
+  color: #fff;
+  font-size: 0.77777778rem;
+  margin-top: 1.11111111rem;
+}
+.about_Branch {
+  height: 19.77777778rem;
+  overflow: hidden;
+  position: relative;
+}
+.about_Branch ul {
+  height: 28.33333333rem;
+  position: absolute;
+  top: 0rem;
+}
+.about_Branch ul li {
+  height: 4.16666667rem;
+  padding: 0.55555556rem 0.83333333rem;
+  box-sizing: border-box;
+  margin-bottom: 0.55555556rem;
+}
+.about_Branch ul li img {
+  width: 5.55555556rem;
+  height: 4.16666667rem;
+  float: left;
+  margin-right: 0.55555556rem;
+}
+.about_Branch_text h3 {
+  color: #74c5be;
+  font-size: 0.66666667rem;
+  margin-bottom: 0.72222222rem;
+}
+.about_Branch_text p {
+  color: #585757;
+  font-size: 0.55555556rem;
+}
+.about_contact_zhaopin {
+  padding-left: 0.55555556rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.about_contact_zhaopin li h3 {
+  font-size: 0.61111111rem;
+  color: #585757;
+  margin-bottom: 1rem;
+}
+.about_contact_zhaopin > li ul li {
+  float: left;
+  font-size: 0.5rem;
+  width: 23%;
+  margin-left: 1rem;
+}
+.about_contact_zhaopin > li ul li:first-child {
+  border-right: 1px solid #ccc;
+}
+.about_contact_zhaopin > li ul li:nth-child(2) {
+  border-right: 1px solid #ccc;
+}
+.about_contact_zhaopin .about_contact_zhaopin_bottom {
+  margin-top: 1.94444444rem;
+}
+.about_contact_zhaopin li p {
+  padding: 1.05555556rem;
+  font-size: 0.5rem;
+  color: #585757;
+  line-height: 1.66666667rem;
+  box-sizing: border-box;
+}
+.about_contact_img {
+  width: 100%;
+  height: 100%;
+}
+.form {
+  overflow: hidden;
+}

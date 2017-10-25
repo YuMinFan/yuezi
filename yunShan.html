@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>云山店</title>
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/Branches.css">
+		<script src="js/my.js"></script>
+		<script src="js/Branches.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				init();
+				selfAdaption();
+				window.onresize = function() {
+					selfAdaption();
+				};
+
+				function init() {
+					var room = document.querySelector(".room");
+					var roomSmallImgUl = room.querySelectorAll(".room-smallImg Ul");
+					var textArr = ['母婴房室内设计简约而温馨，各种家居设施和生活用品配备齐全，妈妈和宝宝可以轻松入住，享受如家一般的舒适温暖。',
+						'专业的隔音门窗、墙体设计，保证给妈妈和宝宝一个安静舒心的休息空间。',
+						'所有进口家私均为实木家具，天然又环保，给室内环境带来温润气息。均为绿色环保材料，充分保证母婴健康，让妈妈和宝宝放心入住。',
+						'店内提供精致小单间、大单间、一房一厅、两房一厅的月子套房选择，保证空间宽敞舒适。',
+						'妈妈的床采用定制的国内外知名品牌雅兰床垫，并可根据妈妈对床垫的软硬需求，增减床褥，确保身体支承力和睡眠舒适度。',
+						'细心照顾不能被强光照射的妈妈与宝宝的眼睛，仕馨专业设置房间内灯光柔和度，并特别设计采用暖色调灯光，保护妈妈与宝宝的视觉健康的同时，也保证睡眠的舒适环境。',
+						'房内安置德国专业净水技术品牌汉斯顿净水器，去除水中有害污染病菌，保留有益矿物质及微量元素。去除不良异味，直接饮用，保证口感甘甜清冽。',
+						'洗浴间同样采用高端卫浴品牌，避免共用资源引起交叉感染，大水量移动式淋浴喷头，能让妈妈洗去产后疲惫，享受清爽洁净。'
+					];
+					var smallImgArr = ['yunShan_11.jpg', 'yunShan_13.jpg', 'yunShan_15.jpg', 'yunShan_17.jpg', 'yunShan_28.jpg', 'yunShan_30.jpg', 'yunShan_32.jpg', 'yunShan_33.jpg'];
+					var bigImgArr = ['yunShan_07.jpg', 'yunShan_08.jpg', 'yunShan_09.jpg', 'yunShan_10.jpg', 'yunShan_24.jpg', 'yunShan_25.jpg', 'yunShan_26.jpg', 'yunShan_27.jpg'];
+					for(var k = 0; k < roomSmallImgUl.length; k++) {
+						tab(roomSmallImgUl[k], k, textArr, smallImgArr, bigImgArr);
+					}
+				}
+
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="header container clearfix">
+			<div class="header-left floatLeft">
+				<img src="img/phoneIcon.jpg" />
+			</div>
+			<div class="header-right floatRight">
+				<a href="javascript:">
+					<img src="img/menuIcon.jpg" />
+				</a>
+			</div>
+			<div class="header-mid">
+				<div class="header-mid-icon floatLeft">
+					<img src="img/headerIcon.jpg" />
+				</div>
+				<div class="header-mid-right floatRight">
+					<h1 class="center-align">仕馨月子会所</h1>
+					<p class="center-align">NOBLE NO</p>
+					<p class="header-mid-textBottom center-align">月子馨享受</p>
+				</div>
+			</div>
+		</div>
+		<div class="top container">
+
+			<div class="photoBox">
+				<ul class="show">
+					<li><img src="img/banner01.jpg" /></li>
+					<li><img src="img/banner02.jpg" /></li>
+					<li><img src="img/banner03.jpg" /></li>
+				</ul>
+				<ul class="btnShow">
+					<li class="turn-color"></li>
+					<li class="init-color"></li>
+					<li class="init-color"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="about.html">关于仕馨</a>
+					</li>
+					<li>
+						<a href="service.html">专业月子服务体系</a>
+					</li>
+					<li>
+						<a href="Branch.html">分店介绍</a>
+					</li>
+					<li>
+						<a href="package.html">套餐介绍</a>
+					</li>
+					<li>
+						<a href="comment.html">妈妈见证</a>
+					</li>
+					<li>
+						<a href="news.html">月子咨询</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="branches-context">
+			<div class="container">
+				<div class="outdoor">
+					<div class="box">
+						<h2>户外环境</h2>
+						<span></span>
+						<p>
+							青山绿意，空气怡人，背依白云山，毗邻白云苗圃，打造星级度假村式的月子会所，让产后妈妈和宝宝享受超优质的空气和环境，心旷神怡地度过每一天。 白云店总面积超过20000平方米，专业设计独立景观花园，坐拥绿意视野，得天独厚的优美环境和新鲜空气，是产后静养的绝佳胜地。
+						</p>
+					</div>
+					<div class="outdoorImg"><img src="img/yunShan_03.jpg" alt=""></div>
+				</div>
+				<div class="room">
+					<div class="title">
+						<h3 class="title-ch">
+                    <span></span>
+                    房间环境
+                    <span></span>
+                    <p class="title-alpha">ROOM ENVIRONMENT</p>
+                </h3>
+					</div>
+					<div class="roomContent roomContent-one">
+						<div class="roomText">
+							<p>母婴房室内设计简约而温馨，各种家居设施和生活用品配备齐全，妈妈和宝宝可以轻松入住，享受如家一般的舒适温暖。</p>
+							<span></span>
+						</div>
+						<div class="roomBigImg"><img src="img/yunShan_07.jpg" alt=""></div>
+					</div>
+					<div class="room-smallImg">
+						<ul>
+						</ul>
+					</div>
+					<div class="roomContent roomContent-two">
+						<div class="roomText">
+							<p>妈妈的床采用定制的国内外知名品牌雅兰床垫，并可根据妈妈对床垫的软硬需求，增减床褥，确保身体支承力和睡眠舒适度。
+							</p>
+							<span></span>
+						</div>
+						<div class="roomBigImg"><img src="img/yunShan_24.jpg" alt=""></div>
+					</div>
+					<div class="room-smallImg">
+						<ul>
+						</ul>
+					</div>
+				</div>
+				<div class="related">
+					<ul>
+						<li><span>配套环境</span><br>RELATE SURROUNDINGS</li>
+						<li><img src="img/branches_39.jpg" alt=""></li>
+						<li><img src="img/branches_40.jpg" alt=""></li>
+						<li><img src="img/branches_41.jpg" alt=""></li>
+						<li><img src="img/branches_42.jpg" alt=""></li>
+						<li><img src="img/branches_43.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+			<div class="address center-align">
+				<div class="title">
+					<h3 class="title-ch">
+                <span></span>
+                房间环境
+                <span></span>
+                <p class="title-alpha">ROOM ENVIRONMENT</p>
+            </h3>
+				</div>
+				<div class="map"><img src="img/branches_45.jpg" alt=""></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-top">
+				<!--<img src="img/footerImg.png"/>-->
+				<div class="footer-top-att clearfix">
+					<div class="footer-top-att-box floatLeft">
+						<img src="img/att-left .jpg" />
+						<p>关注官方微信</p>
+					</div>
+					<div class="footer-top-att-box floatRight">
+						<img src="img/att-right.jpg" />
+						<p>关注官方微博</p>
+					</div>
+				</div>
+				<div class="footer-top-att center-align">
+					Copyright@2011 仕馨月子会所 (粤ICP备17008523号-1)
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container clearfix">
+
+					<div class="footer-bottom-box footer-line-right floatLeft">
+						<img src="img/telIcon.png" class="floatLeft" />
+						<a href="#" class="floatRight">联系电话</a>
+
+					</div>
+					<div class="footer-bottom-box footer-line-left footer-line-right floatLeft">
+
+						<img src="img/bookIcon.png" class="floatLeft" />
+						<a href="#" class="floatRight">预约看店</a>
+
+					</div>
+					<div class="footer-bottom-box footer-line-left footer-nav floatLeft">
+
+						<a href="javascript:" class="floatRight">导航</a>
+						<img src="img/navIcon.png" class="floatRight" />
+
+					</div>
+
+				</div>
+
+				<div class="footer-show">
+					<div class="footer-show-box center-align">
+						<div class="footer-show-line clearfix">
+							<a href="index.html" class="footer-show-line-box floatLeft">
+								<img src="img/mainIcon.jpg" />
+								<p>首页</p>
+							</a>
+							<a href="service.html" class="footer-show-line-box floatRight">
+								<img src="img/serviceIcon.jpg" />
+								<p>服务体系</p>
+							</a>
+							<a href="about.html" class="footer-show-line-box center-align">
+								<img src="img/aboutIcon.jpg" />
+								<p>关于仕馨</p>
+							</a>
+						</div>
+						<div class="footer-show-line clearfix">
+							<a href="Branch.html" class="footer-show-line-box floatLeft">
+								<img src="img/shopIcon.jpg" />
+								<p>分店介绍</p>
+							</a>
+							<a href="comment.html" class="footer-show-line-box floatRight">
+								<img src="img/motherIcon.jpg" />
+								<p>妈妈见证</p>
+							</a>
+							<a href="package.html" class="footer-show-line-box center-align">
+								<img src="img/mealIcon.jpg" />
+								<p>套餐服务</p>
+							</a>
+						</div>
+						<div class="footer-show-line clearfix">
+							<a href="news.html" class="footer-show-line-box floatLeft">
+								<img src="img/monthIcon.jpg" />
+								<p>月子咨询</p>
+							</a>
+
+							<div class="footer-show-line-box floatRight footer-nav-close">
+								<img src="img/footerCloseIcon.jpg" />
+								<p>关闭</p>
+							</div>
+							<div class="footer-show-line-box center-align">
+								<img src="img/visitIcon.jpg" />
+								<p>预约参观</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="rectangle">
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+	<script src="js/header_and_footer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

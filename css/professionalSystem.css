@@ -1,0 +1,114 @@
+img {
+  vertical-align: top;
+}
+.single_img img {
+  width: 18.33333333rem !important;
+  padding: 0.25rem;
+  border-radius: 0.27777778rem;
+  border: 0.02777778rem dashed #76c6bf;
+}
+.double_img {
+  overflow: hidden;
+  margin-top: 1.11111111rem;
+}
+.double_img li {
+  width: 9.02777778rem;
+  float: left;
+}
+.double_img li img {
+  width: 9.02777778rem;
+}
+.double_img li p {
+  margin: 0.69444444rem 0 0.97222222rem 0;
+  font-size: 0.55555556rem;
+  line-height: 0.69444444rem;
+  text-align: center;
+  color: #8a8b8c;
+}
+.double_img li:nth-child(2n) {
+  margin-left: 0.83333333rem;
+}
+.triple_img {
+  overflow: hidden;
+  margin-top: 1.11111111rem;
+}
+.triple_img li {
+  width: 6.11111111rem;
+  float: left;
+}
+.triple_img li img {
+  width: 6.11111111rem;
+}
+.triple_img li p {
+  margin: 0.69444444rem 0 0.97222222rem 0;
+  font-size: 0.55555556rem;
+  line-height: 0.69444444rem;
+  text-align: center;
+  color: #8a8b8c;
+}
+.triple_img li:nth-child(3n) {
+  margin-left: 0.27777778rem;
+}
+.triple_img li:nth-child(3n+1) {
+  margin-right: 0.27777778rem;
+}
+.roll_box {
+  width: 18.88888889rem;
+  margin-top: 1.11111111rem;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+.roll_box .roll_img {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.roll_box .roll_img li {
+  width: 8.61111111rem;
+  float: left;
+}
+.roll_box .roll_img li img {
+  width: 8.61111111rem;
+}
+.roll_box .roll_img li p {
+  line-height: 0.69444444rem;
+  color: #8a8b8c;
+}
+.roll_box .roll_img li .p_ch {
+  margin-top: 0.69444444rem;
+  font-size: 0.55555556rem;
+}
+.roll_box .roll_img li .p_en {
+  margin-bottom: 0.97222222rem;
+  font-size: 0.33333333rem;
+}
+.roll_box .roll_img li + li {
+  margin-left: 0.55555556rem;
+}
+.border_decorate li {
+  width: 9.16666667rem;
+  float: left;
+}
+.border_decorate li img {
+  width: 8.88888889rem;
+  padding: 0.13888889rem;
+  border: 1px dashed #76c6bf;
+  border-radius: 0.27777778rem;
+}
+.border_decorate li:nth-child(2n) {
+  margin-left: 0.44444444rem;
+}
+.professionalSystem {
+  margin-bottom: 1.11111111rem;
+}
+.single_section {
+  margin-top: 0.97222222rem;
+}
+.careSystem_img {
+  margin-top: 0.83333333rem;
+}
+.careSystem_img img {
+  width: 20rem;
+  height: 8.61111111rem;
+}
